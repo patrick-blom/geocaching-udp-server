@@ -4,4 +4,4 @@ mainfile to control the server.
 =end
 
 require 'daemons'
-Daemons.run('geoserver.rb')
+Daemons.run("#{__dir__}/geoserver.rb")
