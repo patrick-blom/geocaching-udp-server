@@ -5,7 +5,10 @@ small UDP ruby script that returns some geocaching coords if the right password 
 The Daemons plugin is requiered. Install it using
 >sudo gem install daemons
 
-##usage server:
+##server configuration:
+To change the server config just edit the config.yml in /config. The properties should be self-explaining
+
+##server usage:
 Start the Server with
 >./geoserver_control.rb start
 
