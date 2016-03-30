@@ -16,7 +16,7 @@ class GeoServer
   end
 
   def start
-    @ds.bind('localhost', @port)
+    @ds.bind('0.0.0.0', @port)
 
     loop do
       request, address = @ds.recvfrom(1024)
